@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a537c778-bc52-4109-8589-aa6ef5e3e6a6" name="Default Changelist" comment="" />
+    <list default="true" id="a537c778-bc52-4109-8589-aa6ef5e3e6a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dip/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dip/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dip/Relationship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dip/RelationshipImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dip/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dip/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/isp/BarcodeScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/isp/BarcodeScannerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/isp/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/isp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/isp/MultiFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/isp/MultiFunctionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/isp/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/isp/PrinterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolidPrinciples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SolidPrinciples.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SolidPrinciples/lsp/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SolidPrinciples/lsp/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SolidPrinciples/srp/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SolidPrinciples/srp/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SolidPrinciples/srp/Persistence.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,11 +34,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1X8LJE9YKqaFlI7KZDL88mp3D1W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,9 +51,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lsp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/dip" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -33,16 +63,31 @@
       <recent name="good.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/dip" />
+      <recent name="$PROJECT_DIR$/src/isp" />
       <recent name="$PROJECT_DIR$/src/lsp" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dip.Main" />
+      <module name="SolidPrinciples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lsp.Main" />
       <module name="SolidPrinciples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lsp.*" />
+          <option name="PATTERN" value="lsp.Print" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -53,6 +98,19 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="srp.Main" />
       <module name="SolidPrinciples" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="isp.Main" />
+      <module name="SolidPrinciples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="isp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,12 +141,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuadraticTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuadraticTime" />
+      <module name="SolidPrinciples" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.QuadraticTime" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -115,7 +181,8 @@
       <option name="presentableId" value="Default" />
       <updated>1580422700717</updated>
       <workItem from="1580422702105" duration="5096000" />
-      <workItem from="1580442027010" duration="5152000" />
+      <workItem from="1580442027010" duration="5343000" />
+      <workItem from="1580469663214" duration="4418000" />
     </task>
     <servers />
   </component>
@@ -123,10 +190,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="602" y="176" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580448062357">
+    <state x="653" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1580477429297">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="602" y="176" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1580448062357" />
+    <state x="653" y="253" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1580477429297" />
+    <state x="602" y="143" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580477652138">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="602" y="143" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1580477652138" />
     <state x="578" y="290" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1580424104794">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -135,21 +206,21 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="697" y="437" key="Github.ShareDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1580429568981" />
-    <state width="1638" height="287" key="GridCell.Tab.0.bottom" timestamp="1580448079220">
+    <state width="1638" height="287" key="GridCell.Tab.0.bottom" timestamp="1580477770273">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="287" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1580448079220" />
-    <state width="1638" height="287" key="GridCell.Tab.0.center" timestamp="1580448079219">
+    <state width="1638" height="287" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1580477770273" />
+    <state width="1638" height="287" key="GridCell.Tab.0.center" timestamp="1580477770271">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="287" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1580448079219" />
-    <state width="1638" height="287" key="GridCell.Tab.0.left" timestamp="1580448079219">
+    <state width="1638" height="287" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1580477770271" />
+    <state width="1638" height="287" key="GridCell.Tab.0.left" timestamp="1580477770270">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="287" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1580448079219" />
-    <state width="1638" height="287" key="GridCell.Tab.0.right" timestamp="1580448079220">
+    <state width="1638" height="287" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1580477770270" />
+    <state width="1638" height="287" key="GridCell.Tab.0.right" timestamp="1580477770272">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="287" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1580448079220" />
+    <state width="1638" height="287" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1580477770272" />
   </component>
 </project>
